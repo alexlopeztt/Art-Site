@@ -1,0 +1,211 @@
+/*Initial Body*/
+Body{
+    position:relative;
+    background-color:#f2f2f2;
+}
+
+/*Initial Menu*/
+.menu{
+    background:#202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    left:-285px;
+    height:100%;
+    position:fixed;
+    width:285px;
+}
+
+/*Webpage cover*/
+.jumbotron{
+    background-image:url('Sunrise_Lotus.png');
+    height:900px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-bottom:10px;
+}
+
+.jumbotron .container{
+    position:relative;
+    top:100px
+}
+
+.jumbotron .container h1{
+    color: #000000;
+    font-size:55px;
+    font-family:'Shift',sans-serif;
+    font-weight:bold;
+}
+
+.jumbotron .container p{
+    font-size:24px;
+    color: #ffe6e6;
+    margin-bottom:0px;
+}
+
+.jumbotron .container a{
+    color:#1ac9ff;
+	font-size:18px
+}
+
+/*Menu Navigation*/
+.menu ul{
+    border-top:1px solid #636366;
+    font-family:sans-serif;
+    line-height:45px;
+    padding-bottom:3px;
+    padding-left:20px;
+    padding-top;3px;
+}
+
+.menu li{
+    border-bottom:1px solid #636366;
+    font-family:sans-serif;
+    line-height:45px;
+    padding-bottom:3px;
+    padding-left:20px;
+    padding-top:3px;
+    list-style:none;
+}
+
+.menu a{
+    color:#fff;
+    font-size:15px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+.icon-close{
+    cursor:pointer;
+    padding-left:10px;
+    padding-top:10px;
+}
+
+.icon-menu{
+    color:#fff;
+    cursor:pointer;
+    font-family:sans-serif;
+    font-size:24px;
+    padding-bottom:20px;
+    padding-left:25px;
+    padding-top:25px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+.icon-menu i{
+    margin-right:5px;
+}
+
+/*carosel description*/
+.artist{
+    background-color:#f2f2f2;
+}
+
+.artist h2{
+    color:#000;
+    font-size:30px;
+}
+
+.artist p{
+    font-size:20px;
+    margin-bottom:13px;
+    color:#000;
+}
+
+/*carosel navigation*/
+.slider-nav{
+    text-align:center;
+    margin-top:20px;
+}
+
+.arrow-prev{
+    display:inline-block;
+    margin-right:45px;
+    vertical-align:top;
+    margin-top:10px;
+}
+
+.arrow-prev p:hover{
+	text-color: #555;
+	cursor: pointer;
+}
+
+.arrow-next{
+    display:inline-block;
+    margin-left:45px;
+    vertical-align:top;
+    margin-top:10px;
+}
+
+.slider-dots{
+    list-style:none;
+    display:inline-block;
+    padding-left:0;
+    margin-bottom:0;
+}
+
+.slider-dots li{
+    color:#bbbcbc;
+    display:inline;
+    font-size:30px;
+    margin-right:5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+/*Slide-show*/
+.slider{
+    position:relative;
+    width:100%;
+    height:0;
+    border-bottom:1px solid #ddd;
+}
+
+.slide{
+    display:none;
+    position:relative;
+    top:0;
+    left:0;
+    height:75%;
+    width:75%;   
+}
+
+.active-slide{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*picture descriptions*/
+.description{
+    display:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#bfbfbf;
+    border-radius:10px;
+    padding:10px;
+}
+
+.pictures{
+    background-color:#f2f2f2;
+    color:#000;
+    position:relative;
+    display:block;
+}
+
+.pic{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.pic 
+
+.pics a{
+    color:#0088cc;
+}
+
+.current .item {
+  background:#bfbfbf;
+  border-radius:10px;
+  padding:10px;
+}
